@@ -1,0 +1,21 @@
+{
+  "name": "JS-Exercise",
+  "version": "1.0.0",
+  "description": "Java Script Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" :"node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pasupathi21/JS-Exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pasupathi21/JS-Exercise/issues"
+  },
+  "homepage": "https://github.com/Pasupathi21/JS-Exercise#readme"
+}
