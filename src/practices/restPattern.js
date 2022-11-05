@@ -8,3 +8,6 @@ function restPtn(argOne, ...restArg){
 }
 
 restPtn('Software engineer', 'Node js ', 'Angular', 'MySQL', 'Mongo DB')
+
+// process.argv -> To access the terminal commads
+// console.log(process.argv)
