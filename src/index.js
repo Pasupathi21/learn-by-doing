@@ -5,5 +5,6 @@
 // require('./practices/array-methods')
 // require('./practices/groupby.js')
 // require('./practices/orderBy.js')
-require('./practices/fsmodule.js')
+// require('./practices/fsmodule.js')
+require('./practices/restPattern.js')
 
