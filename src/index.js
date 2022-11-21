@@ -9,6 +9,7 @@
 // require('./practices/restPattern.js')
 // require('./practices/spreadOperator.js')
 // require('./practices/arrayRef.js')
+// require('./practices/prototypal-inheritance.js')
 require('./practices/functionExp.js')
 
 
