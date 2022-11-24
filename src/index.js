@@ -12,9 +12,8 @@
 // require('./practices/prototypal-inheritance.js')
 // require('./practices/functionExp.js')
 // require('./practices/hoisting.js')
-require('./practices/var-let-const.js')
-
-
+// require('./practices/var-let-const.js')
+require('./practices/settimeout-interval.js')
 // Challenges
 // require('./challenges/challenge-one')
 // require('./challenges/challenge-two')
