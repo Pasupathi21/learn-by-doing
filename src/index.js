@@ -4,12 +4,17 @@
 // require('./practices/random-pass')
 // require('./practices/array-methods')
 // require('./practices/groupby.js')
-// require('./practices/orderBy.js')
+// require('./practices/orderBy.js') 
 // require('./practices/fsmodule.js')
 // require('./practices/restPattern.js')
 // require('./practices/spreadOperator.js')
 // require('./practices/arrayRef.js')
 // require('./practices/prototypal-inheritance.js')
-require('./practices/functionExp.js')
+// require('./practices/functionExp.js')
+// require('./practices/hoisting.js')
+require('./practices/var-let-const.js')
 
 
+// Challenges
+// require('./challenges/challenge-one')
+// require('./challenges/challenge-two')
