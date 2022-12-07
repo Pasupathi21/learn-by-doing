@@ -13,7 +13,11 @@
 // require('./practices/functionExp.js')
 // require('./practices/hoisting.js')
 // require('./practices/var-let-const.js')
-require('./practices/settimeout-interval.js')
+// require('./practices/settimeout-interval.js')
+// require('./practices/return.js')
+require('./practices/promise.js')
+// require('./practices/async-await.js')
+
 // Challenges
 // require('./challenges/challenge-one')
 // require('./challenges/challenge-two')
