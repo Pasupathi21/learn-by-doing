@@ -15,8 +15,9 @@
 // require('./practices/var-let-const.js')
 // require('./practices/settimeout-interval.js')
 // require('./practices/return.js')
-require('./practices/promise.js')
+// require('./practices/promise.js')
 // require('./practices/async-await.js')
+require('./practices/read-wite')
 
 // Challenges
 // require('./challenges/challenge-one')
