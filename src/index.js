@@ -18,7 +18,8 @@
 // require('./practices/promise.js')
 // require('./practices/async-await.js')
 // require('./practices/read-wite')
-require('./practices/async-return.js')
+// require('./practices/async-return.js')
+require('./practices/batch-process.js')
 
 // Challenges
 // require('./challenges/challenge-one')
