@@ -30,7 +30,7 @@ const originalObj = {
 const copyObj = Object.assign({}, originalObj);
 // cosnst copyObj = { ...originalObj };
 
-copyObj.bookName = 'Balck water'
+copyObj.bookName = 'Black water'
 copyObj.avalableCities.cities[1].name = 'NY'
 console.log("Original LEVEL 1: ", originalObj);
 // console.log("Original LEVEL 1: ", copyObj);
@@ -43,7 +43,7 @@ console.log("Original LEVEL 1: ", originalObj);
 /**
  * @description
  * Duplicate key add
- * If duplicate key added, then only last key it takes
+ * If duplicate key added, then only last key it takes(overwrite the keys values)
  */
 
  const duplicateKeyObj = { ...originalObj, bookName : 'Warriors sound' };
