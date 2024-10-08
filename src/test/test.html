@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function clickFn() {
+        const stringify_data = "eyJlbXNpZCI6IjMyNDMiLCJldmVudHRpdGxlIjoidGl0bGUgb25lIiwiZXZlbnRmcm9tZGF0ZSI6IjIwMjQtMTAtMTUiLCJldmVudHRvZGF0ZSI6IjIwMjQtMTAtMTciLCJkZXBhcnRtZW50Y29kZSI6IjEwMTAxMyIsInByb2plY3Rjb2RlIjoiUDAwNDUiLCJxc2UiOiJ2aXNpdGluZy5jYXJkMiIsImFzeCI6IlZDRkAxMjM0In0="
+        window.name = stringify_data
+        // window.location.href = 'https://q.meetingroom.ficci.in/'
+        window.location.href = 'http://localhost:5173/'
+        // const newWindow = window.open("http://localhost:5173/", "_blank")
+        // // window.location.href="https://q.meetingroom.ficci.in/"
+        // const sessionData = sessionStorage.getItem("eventData")
+        // // For QA
+        // newWindow.onload = () => {
+        //     newWindow.postMessage({ sessionData: "yourData" }, "https://www.apptwo.com");
+        // };
+        // window.postMessage({sessionData}, "http://localhost:5173/");
+
+        // For Production
+        // window.postMessage(sessionData, "https://q.meetingroom.ficci.in");
+        console.log("clicked ....")
+    }
+    function setSession() {
+       sessionStorage.setItem("eventData", "test session")
+    }
+</script>
+<body>
+    <p>EMS APP </p>
+    <button onclick="setSession()">Set Session</button>
+
+    <button onclick="clickFn()">Redirect App</button>
+</body>
+</html>
