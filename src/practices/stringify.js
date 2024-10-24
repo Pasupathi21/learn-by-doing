@@ -1,11 +1,11 @@
 const json = {
     emsid: "3243",
-    eventtitle: "title one",
+    eventtitle: "title one v",
     eventfromdate: "2024-10-15",
     eventtodate : "2024-10-17",
     departmentcode: "101013",
     projectcode: "P0045",
-    qse: "visiting.card2",
+    qse: "visiting.card",
     asx: "VCF@1234"
  }
 
