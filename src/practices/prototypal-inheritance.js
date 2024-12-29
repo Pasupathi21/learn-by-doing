@@ -47,7 +47,7 @@ jsArray.map(e => console.log(e))
 
 let newObj = {
     name: 'No Name',
-    age: 000
+    age: 0
 };
 
 newObj.__proto__.newProp = 'We will add the Functions or Normal values'

@@ -20,7 +20,8 @@
 // require('./practices/read-wite')
 // require('./practices/async-return.js')
 // require('./practices/batch-process.js')
-require('./practices/stringify')
+// require('./practices/stringify')
+require('./practices/this')
 
 // Challenges
 // require('./challenges/challenge-one')
