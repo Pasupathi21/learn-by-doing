@@ -21,7 +21,9 @@
 // require('./practices/async-return.js')
 // require('./practices/batch-process.js')
 // require('./practices/stringify')
-require('./practices/this')
+// require('./practices/this')
+// require('./practices/map')
+require('./practices/set')
 
 // Challenges
 // require('./challenges/challenge-one')
