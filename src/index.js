@@ -23,7 +23,8 @@
 // require('./practices/stringify')
 // require('./practices/this')
 // require('./practices/map')
-require('./practices/set')
+// require('./practices/set')
+require('./oops/example')
 
 // Challenges
 // require('./challenges/challenge-one')
