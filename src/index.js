@@ -24,8 +24,9 @@
 // require('./practices/this')
 // require('./practices/map')
 // require('./practices/set')
-require('./oops/example')
+// require('./oops/example')
 
 // Challenges
 // require('./challenges/challenge-one')
 // require('./challenges/challenge-two')
+require('./challenges/string-sequence')
