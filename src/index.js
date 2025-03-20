@@ -1,3 +1,4 @@
+console.log("======================START============================")
 // require('./practices/print')
 // require('./practices/call-apply-bind')
 // require('./practices/closures')
@@ -37,4 +38,7 @@
 
 // typescript 
 
-require('./dist/test-ts')
+// require('./dist/test-ts')
+require('./dist/generic-fn')
+console.log("======================END==============================")
+
