@@ -39,6 +39,7 @@ console.log("======================START============================")
 // typescript 
 
 // require('./dist/test-ts')
-require('./dist/generic-fn')
+// require('./dist/generic-fn')
+require('./dist/strategy')
 console.log("======================END==============================")
 
