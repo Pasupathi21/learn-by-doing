@@ -100,7 +100,7 @@ const input = {
 
 function convertKeys(key) {
     if(!key) return key
-    return key.split('').map(ch => (/[A-Z]/.test(ch) ? `_${ch}`: ch).toLowerCase()).join('')
+    return key.replace(/[A-Z]/g, ch => `_${ch}`.toLowerCase())
 }
 function camelToSnakeCase(value){
     if (!value) return value
