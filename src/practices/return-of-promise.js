@@ -9,5 +9,6 @@ async function Two() {
 async function mainFn() {
     return Two()
 }
-
-console.log(await mainFn())
+(async function(){
+    console.log(await mainFn())
+})()
