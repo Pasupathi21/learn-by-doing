@@ -9,7 +9,6 @@ const delay = function (cb, duration = 200, ...argument) {
         // execution function context
         const ctx = this
         timeout = setTimeout(() => cb?.apply(ctx, argument), duration)
-        console.log("timeout", timeout)
 
     }
 }
