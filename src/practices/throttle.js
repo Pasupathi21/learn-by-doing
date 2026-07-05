@@ -11,12 +11,12 @@ function throttel(cb, timeLimit){
 
 const call_th = throttel((time) => console.log(time), 100)
 
-call_th(Date.now())
-call_th(Date.now())
-call_th(Date.now())
-call_th(Date.now())
+// call_th(Date.now())
+// call_th(Date.now())
+// call_th(Date.now())
+// call_th(Date.now())
 
-setTimeout(() => call_th(Date.now()) ,200)
-setTimeout(() => call_th(Date.now()) ,1300)
-setTimeout(() => call_th(Date.now()) ,1400)
-setTimeout(() => call_th(Date.now()) ,2500)
+setTimeout(() => call_th(Date.now() + 'call 1') ,200)
+setTimeout(() => call_th(Date.now() + 'call 2') ,1300)
+setTimeout(() => call_th(Date.now() + 'call 3') ,1400)
+setTimeout(() => call_th(Date.now() + 'call 4') ,2500)

@@ -7,7 +7,7 @@
  */
 
 const API = (sec = 0, isreject = false) => {
-  console.log(isreject);
+  // console.log(isreject);
   return new Promise((rs, rj) => {
     setTimeout(async () => {
       try {
@@ -38,13 +38,13 @@ async function main(type = "all") {
   let result = null;
   let start = Date.now();
   if (type === "all") {
-    result = await Promise.all(getNumOfApiCalls(10, true));
+    result = await Promise.all(getNumOfApiCalls(10, false));
   } else if (type === "allSettled") {
     result = await Promise.allSettled(getNumOfApiCalls(10, true));
   } else if (type === "race") {
     result = await Promise.race(getNumOfApiCalls(10, true));
   } else {
-    result = await Promise.any(getNumOfApiCalls(10, true));
+    result = await Promise.any(getNumOfApiCalls(10, false));
   }
   console.log(
     `=============== ${type} | Response time: ${

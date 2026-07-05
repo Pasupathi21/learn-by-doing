@@ -1,4 +1,4 @@
-const arr = [ 1,  2,  5,  5, 6, 34, 34, 87 ]
+const arr = [ 1,  2,  999,  5, 99, 34, 34, 87 ]
 const target = 1000
 
 function twoSum(input, target) {
@@ -10,6 +10,8 @@ function twoSum(input, target) {
     let output = []
     let sumVal = 0
     while ((left != right) && !loopEnd) {
+        if(right === 0) loopEnd = true
+        console.log(left, right)
         sumVal = input[left] + input[right]
         if(sumVal === target){
             loopEnd = true
@@ -17,7 +19,8 @@ function twoSum(input, target) {
         }else if(sumVal < target){
             left++
         }else{
-            right++
+            right--
+            left = 0
         }
     }
     return output
